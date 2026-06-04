@@ -5,3 +5,7 @@ accountCity = "Jaipur"
 console.log(accountId);
 console.table({accountId, accountEmail, accountPass, accountCity});
 
+/*
+prefer not to use Var.
+Instead of var use let.
+*/
