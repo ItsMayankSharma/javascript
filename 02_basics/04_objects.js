@@ -29,7 +29,7 @@ const obj3 = { 5: "a", 6: "b" }
 
 const obj4 = { ...obj1, ...obj2, ...obj3 }
 
-console.log(obj4);
+// console.log(obj4);
 
 const arr = [
     {
@@ -47,7 +47,7 @@ const arr = [
 ]
 
 
-users[1].email
+// console.log(arr[1].email)
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
@@ -56,3 +56,26 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+const course = {
+    courseName: "JS-Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+const { courseInstructor } = course
+
+console.log(courseInstructor)
+
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
